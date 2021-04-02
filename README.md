@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @albertus125
 - 👀 I’m interested in web programming
 - 🌱 I’m currently learning javascript
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on web programming
 - 📫 How to reach me ...
 
 <!---
