@@ -1,0 +1,13 @@
+i wanna make a website that contains an image of a film, synopsis of the film, rating of the film from imdb or anything. this is the sample of the website (https://www.imdb.com/title/tt1837492/?ref_=fn_al_tt_1). but i wanna make it more simple hahaha. if this is possible tho 
+
+to do list : 
+
+1. prerequisites ( i dont know what this mean pls explain it)
+2.creating a vue application
+3.component structure
+4.main web component
+5.creating a component
+6.importing component
+7.adding component data
+8.looping and rendering data
+9.adding, editing the film to the website
