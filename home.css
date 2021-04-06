@@ -1,0 +1,54 @@
+/*h1{
+    color:brown;
+    background-color: rgb(233, 149, 71);
+    padding: 30px;
+    display :inline;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute; top:1px;
+    
+    
+
+}
+input{
+    margin-left: 10px;
+    display :inline;
+    font-family: 'Open Sans', sans-serif;
+    position:absolute; right:315px; top:20px;
+    background-color: rgb(233, 149, 71); padding: 20px;
+}
+select{
+    position:absolute; right:150px; top:20px;
+    color: brown;
+    background-color: rgb(233, 149, 71); padding: 20px;
+
+}
+*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.masterhead {
+    height: 100px;
+    background-color: rgb(233, 149, 71)
+}
+
+ h1{
+    color:brown;
+    display :inline;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute; top:20px;
+
+
+
+}
+input{
+    margin-left: 10px;
+    display :inline;
+    font-family: 'Open Sans', sans-serif;
+    position:absolute; right:315px; top:50px;
+}
+select{
+    position:absolute; right:150px; top:50px;
+    color: brown;
+
+} 
