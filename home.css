@@ -1,54 +1,83 @@
-/*h1{
-    color:brown;
-    background-color: rgb(233, 149, 71);
-    padding: 30px;
-    display :inline;
-    font-family: 'Open Sans', sans-serif;
-    position: absolute; top:1px;
-    
-    
-
-}
-input{
-    margin-left: 10px;
-    display :inline;
-    font-family: 'Open Sans', sans-serif;
-    position:absolute; right:315px; top:20px;
-    background-color: rgb(233, 149, 71); padding: 20px;
-}
-select{
-    position:absolute; right:150px; top:20px;
-    color: brown;
-    background-color: rgb(233, 149, 71); padding: 20px;
-
-}
-*/
-html, body {
-    height: 100%;
-    width: 100%;
-}
-.masterhead {
-    height: 100px;
-    background-color: rgb(233, 149, 71)
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color:#E50914;
 }
 
- h1{
-    color:brown;
-    display :inline;
-    font-family: 'Open Sans', sans-serif;
-    position: absolute; top:20px;
-
-
-
+body {
+  background: black;
+  margin: 0;
+  font-family: 'Poppins';
+  color: white;
 }
-input{
-    margin-left: 10px;
-    display :inline;
-    font-family: 'Open Sans', sans-serif;
-    position:absolute; right:315px; top:50px;
-}
-select{
-    position:absolute; right:150px; top:50px;
-    color: brown;
 
-} 
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: left;
+}
+
+.navbar .mobile-nav {
+  cursor: pointer;
+  padding-left: 1.2em;
+}
+
+.Main img.one {
+  width: 29em;
+  height: 20em;
+  border: 5px solid black;
+  border: radius 50%;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Main img.two {
+  width: 20em;
+  height: 25em;
+  border: 5px solid black;
+  border: radius 50%;
+  padding: 1em;
+  display: none;
+}
+
+h2 {
+  border: radius 1%;
+  border-left: 10px solid black;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.suggestion {
+  background: black;
+}
+
+.suggestion li {
+  background: #474646;
+  list-style-type: none;
+  text-align: center;
+}
+
+.suggestion img {
+  width: 5em;
+  height: 10em;
+}
+/*# sourceMappingURL=Home.css.map */
